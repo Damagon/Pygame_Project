@@ -36,7 +36,7 @@ while run:
             if jumpCount < 0:
                 neg = -1
             y -= jumpCount**2 * 0.5 * neg  # to the power of 2
-            jumpCount -= 1
+            jumpCount -= 0
             # from 10-0 (jump increases) from -1 to -10 jump decreases back to original position due to neg sign
         else:
             isJump = False
